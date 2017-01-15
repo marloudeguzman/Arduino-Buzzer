@@ -60,7 +60,7 @@ void loop()
   // put your main code here, to run repeatedly:
   int buzzer1state, buzzer2state, buzzer3state, buzzer4state, buzzer5state, buzzer6state, buzzer7state, buzzer8state; 
   int player1state, player2state, player3state, player4state, player5state, player6state, player7state, player8state;
-
+  
   buzzer1state = digitalRead(buzzer1);
   buzzer2state = digitalRead(buzzer2);
   buzzer3state = digitalRead(buzzer3);
@@ -83,7 +83,7 @@ void loop()
 
   if (buzzer1state == LOW)
   {
-    /*digitalWrite(player1, HIGH);
+    digitalWrite(player1, HIGH);
     Serial.print("Player 1");
     Serial.println();
     // iterate over the notes of the melody:
@@ -114,7 +114,7 @@ void loop()
     Serial.print("Player 2");
     Serial.println();
   }
- /* if (buzzer3state == LOW)
+if (buzzer3state == LOW)
   {
     digitalWrite(player3, HIGH);
     Serial.print("Player 3");
@@ -138,7 +138,6 @@ void loop()
     Serial.print("Player 6");
     Serial.println();
   }
-  */
   /*
   if (buzzer7state == LOW)
   {
